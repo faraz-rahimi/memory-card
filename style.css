@@ -62,7 +62,6 @@ input:focus {
   display: grid;
   justify-items: center;
   align-items: center;
-  grid-template-rows: repeat(3, 1fr);
   width: 400px;
   height: 200px;
   background-color: var(--card);
