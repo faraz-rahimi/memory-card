@@ -89,10 +89,3 @@ input:focus {
   font-size: 16px;
   color: var(--text);
 }
-.delete-btn {
-  position: relative;
-  padding: 0 4px;
-  background-color: var(--background);
-  top: 0;
-  right: 0;
-}
