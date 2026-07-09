@@ -1,0 +1,98 @@
+:root {
+  --primary: #eba925;
+  --primary-hover: #d87e1d;
+  --background: #f8fafc;
+  --card: #fff;
+  --text: #1e293b;
+  --border: #cbd5e1;
+}
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background: var(--background);
+  height: 100vh;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.forms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  gap: 20px;
+}
+input {
+  border: 2px solid var(--primary);
+  border-radius: 999px;
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  outline: none;
+  text-align: center;
+}
+input:focus {
+  box-shadow: 0px 0px 7px var(--primary-hover);
+}
+.add-btn {
+  width: 90px;
+  height: 32px;
+  border-radius: 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  color: var(--text);
+  background-color: var(--primary);
+  transition-duration: 200ms;
+}
+.add-btn:hover {
+  background-color: var(--primary-hover);
+}
+.cards {
+  display: grid;
+  justify-items: center;
+  margin-top: 50px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.card {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-rows: repeat(3, 1fr);
+  width: 400px;
+  height: 200px;
+  background-color: var(--card);
+  border: 3px solid var(--border);
+  border-radius: 15px;
+}
+.show-btn {
+  background-color: var(--primary);
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  color: var(--text);
+  cursor: pointer;
+  transition-duration: 200ms;
+}
+.show-btn:hover {
+  background-color: var(--primary-hover);
+}
+.h1 {
+  color: var(--text);
+}
+.p {
+  font-size: 16px;
+  color: var(--text);
+}
+.delete-btn {
+  position: relative;
+  padding: 0 4px;
+  background-color: var(--background);
+  top: 0;
+  right: 0;
+}
