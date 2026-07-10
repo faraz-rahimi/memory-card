@@ -10,6 +10,7 @@ A simple and interactive Memory Card application built with HTML, CSS, and JavaS
 * Automatically hide answers after a short delay
 * Add cards using the **Enter** key
 * Dynamic card creation using JavaScript DOM manipulation
+* Delete individual memory cards
 * Clean and responsive user interface
 
 ## Technologies Used
@@ -22,16 +23,17 @@ A simple and interactive Memory Card application built with HTML, CSS, and JavaS
 
 1. Enter a question in the question field.
 2. Enter the answer in the answer field.
-3. Click the **Add** button or press **Enter**.
-4. Click **Show Answer** to reveal the answer for a few seconds.
+3. Click the **Add** button or press **Enter** to create a card.
+4. Click **Show Answer** to reveal the answer.
 
 ## Future Improvements
 
 * Save cards using Local Storage
-* Delete individual cards
 * Delete all cards
 * Edit existing cards
 * Search and filter cards
+* Add categories for cards
+* Add dark mode
 
 ## Project Purpose
 
@@ -41,6 +43,7 @@ This project was created to practice:
 * Event Handling
 * Dynamic Element Creation
 * JavaScript Functions
+* Arrays and Objects
 * User Interaction Logic
 
 ## Author
